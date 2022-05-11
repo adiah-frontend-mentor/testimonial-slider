@@ -1,3 +1,5 @@
+@use '../../sass/abstracts/' as abs;
+
 .slider {
 
 	&__btn {
@@ -11,6 +13,11 @@
 			width: 6px;
 			height: 12px;
 			stroke-width: 3;
+
+			@include abs.breakpoint(medium) {
+				width: 12px;
+				height: 18px;
+			}
 		}
 	}
 }

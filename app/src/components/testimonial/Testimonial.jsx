@@ -16,8 +16,10 @@ const Testimonial = () => {
 				I couldn’t recommend this course enough. I’m now in the job of my dreams and so 
 				excited about the future. ”
 			</p>	
-			<h1 className="text__name">Tanya Sinclair</h1>
-			<p className="text__position">UX Engineer</p>
+			<div className="text__footer">
+				<h1 className="text__name">Tanya Sinclair</h1>
+				<p className="text__position">UX Engineer</p>
+			</div>
 		</div>
 	</div>
   )

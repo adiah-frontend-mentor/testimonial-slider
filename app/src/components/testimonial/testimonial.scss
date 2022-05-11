@@ -1,17 +1,38 @@
 @use '../../sass/abstracts/' as abs;
 
 .testimonial {
-	width: 80%;
+	width: 100%;
 	max-width: abs.rem(310);
 	// display: flex;
 	// flex-direction: column;
 	// justify-content: space-between;
+
+	@include abs.breakpoint(medium) {
+		width: 83%;
+		max-width: abs.rem(1202);
+		position: relative;
+	}
 }
 
 .testimonial-image {
-	width: 80%;
+	width: 100%;
 	margin-inline: auto;
-	margin-bottom: 3.625rem;
+	padding: 1.8125rem 2.375rem ;
+	margin-bottom: 2rem;
+
+	background-image: url(../../images/pattern-bg.svg);
+	background-size: contain;
+	background-repeat: no-repeat;
+
+	@include abs.breakpoint(medium) {
+		margin-inline: 0;
+		margin-left: auto;
+
+		width: 58%;
+		max-width: abs.rem(697);
+		padding: 3.875rem;
+		position: relative;
+	}
 
 	&__picture {
 		position: relative;
@@ -36,18 +57,44 @@
 	padding: .75rem 1rem;
 	border-radius: 25px;
 	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+	@include abs.breakpoint(medium) {
+		left: 20%;
+		transform: translateX(0) translateY(-50%);
+	}
 }
 
 .text {
 	background-image: url(../../images/pattern-quotes.svg);
+	background-size: 20%;
 	background-repeat: no-repeat;
 	background-position: top center;
 	padding-top: 1.625rem;
 
 	text-align: center;
 
+	@include abs.breakpoint(medium) {
+		position: absolute;
+		top: 50%;
+		left: 0;
+		transform: translateY(-50%);
+		width: 53%;
+		max-width: abs.rem(632);
+		text-align: start;
+		background-size: auto;
+	}
+
 	&__body {
 		margin-bottom: 1.1875rem;
+		line-height: 1.3;
+	}
+
+	&__footer {
+
+		@include abs.breakpoint(medium) {
+			display: flex;
+			gap: 0.5rem;
+		}
 	}
 
 	&__name {
