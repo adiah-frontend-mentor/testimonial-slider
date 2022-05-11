@@ -1,0 +1,16 @@
+.slider {
+
+	&__btn {
+		display: flex;
+		align-items: center;
+		border: 0;
+		background-color: transparent;
+		height: min-content;
+
+		svg {
+			width: 6px;
+			height: 12px;
+			stroke-width: 3;
+		}
+	}
+}

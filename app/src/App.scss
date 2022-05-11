@@ -1,0 +1,19 @@
+@use './sass/abstracts/' as abs;
+
+.page-wrapper {
+  min-height: 100vh;
+  background-image: url(./images/pattern-bg.svg), url(./images/pattern-curve.svg);
+  background-repeat: no-repeat;
+  background-size: 80%, contain;
+  background-position: top 1.5rem center, bottom left;
+
+  display: flex;
+  justify-content: center;
+
+  padding-top: 3.375rem;
+  padding-bottom: 4.75rem;
+
+  @include abs.breakpoint(medium) {
+    background-size: contain;
+  }
+}

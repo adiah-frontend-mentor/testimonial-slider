@@ -37,6 +37,8 @@ Users should be able to:
 
 ## My process
 
+Add the background image to the testimonial image section only.
+
 ### Built with
 
 - Semantic HTML5 markup
@@ -49,6 +51,8 @@ Users should be able to:
 
 
 ### What I learned
+
+Add viewbox to scale svgs and let the whole image show
 
 ### Continued development
 
