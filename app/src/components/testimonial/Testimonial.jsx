@@ -1,24 +1,24 @@
 import './testimonial.scss';
 
-import tanya from '../../images/image-tanya.jpg';
 import SliderButton from '../sliderButton/SliderButton';
 
-const Testimonial = () => {
+const Testimonial = ({data, next, prev}) => {
   return (
 	<div className='testimonial'>
 		<div className="testimonial-image">
-			<img src={tanya} alt="" className="testimonial-image__picture" />
-			<SliderButton />
+			<img src={data.image} alt="" className="testimonial-image__picture" />
+			<SliderButton 
+				next={next}
+				prev={prev}
+			/>
 		</div>
 		<div className="text">
 			<p className="text__body">
-				“ I’ve been interested in coding for a while but never taken the jump, until now. 
-				I couldn’t recommend this course enough. I’m now in the job of my dreams and so 
-				excited about the future. ”
+				“ {data.quote} ”
 			</p>	
 			<div className="text__footer">
-				<h1 className="text__name">Tanya Sinclair</h1>
-				<p className="text__position">UX Engineer</p>
+				<h1 className="text__name">{data.name}</h1>
+				<p className="text__position">{data.position}</p>
 			</div>
 		</div>
 	</div>

@@ -1,10 +1,12 @@
 import "./sliderButton.scss";
 
 
-const SliderButton = () => {
+const SliderButton = ({prev, next}) => {
   return (
     <div className="slider">
-      <button className="slider__btn">
+      <button className="slider__btn"
+        onClick={prev}
+      >
         <svg xmlns="http://www.w3.org/2000/svg" width="12" height="18" viewBox="0 0 12 18">
           <path
             fill="none"
@@ -14,7 +16,9 @@ const SliderButton = () => {
           />
         </svg>
       </button>
-      <button className="slider__btn">
+      <button className="slider__btn"
+        onClick={next}
+      >
         <svg xmlns="http://www.w3.org/2000/svg" width="13" height="18" viewBox="0 0 13 18">
           <path 
             fill="none" 
