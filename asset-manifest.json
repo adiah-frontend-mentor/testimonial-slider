@@ -1,13 +1,17 @@
 {
   "files": {
-    "main.css": "/testimonial-slider/static/css/main.eeb4ae37.css",
-    "main.js": "/testimonial-slider/static/js/main.a9d7c201.js",
+    "main.css": "/testimonial-slider/static/css/main.4d600d23.css",
+    "main.js": "/testimonial-slider/static/js/main.feeab671.js",
+    "static/media/image-tanya.jpg": "/testimonial-slider/static/media/image-tanya.f54c06576a4cdc261099.jpg",
+    "static/media/pattern-bg.svg": "/testimonial-slider/static/media/pattern-bg.7f46e67e7d84324800ef.svg",
     "index.html": "/testimonial-slider/index.html",
-    "main.eeb4ae37.css.map": "/testimonial-slider/static/css/main.eeb4ae37.css.map",
-    "main.a9d7c201.js.map": "/testimonial-slider/static/js/main.a9d7c201.js.map"
+    "static/media/pattern-quotes.svg": "/testimonial-slider/static/media/pattern-quotes.219bd182b41259a321a8.svg",
+    "static/media/pattern-curve.svg": "/testimonial-slider/static/media/pattern-curve.05698a95740cb41f8c3c.svg",
+    "main.4d600d23.css.map": "/testimonial-slider/static/css/main.4d600d23.css.map",
+    "main.feeab671.js.map": "/testimonial-slider/static/js/main.feeab671.js.map"
   },
   "entrypoints": [
-    "static/css/main.eeb4ae37.css",
-    "static/js/main.a9d7c201.js"
+    "static/css/main.4d600d23.css",
+    "static/js/main.feeab671.js"
   ]
 }
