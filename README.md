@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [github.com/adiah-frontend-mentor/testimonials-slider](https://github.com/adiah-frontend-mentor/testimonials-slider)
-- Live Site URL: [adiah-frontend-mentor.github.io/testimonials-slider](https://adiah-frontend-mentor.github.io/testimonials-slider)
+- Solution URL: [github.com/adiah-frontend-mentor/testimonials-slider](https://github.com/adiah-frontend-mentor/testimonial-slider)
+- Live Site URL: [adiah-frontend-mentor.github.io/testimonials-slider](https://adiah-frontend-mentor.github.io/testimonial-slider)
 
 ## My process
 
