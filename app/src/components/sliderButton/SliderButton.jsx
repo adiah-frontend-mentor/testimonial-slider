@@ -15,6 +15,7 @@ const SliderButton = ({prev, next}) => {
             d="M11 1L3 9l8 8"
           />
         </svg>
+        <span className="sr-only">previous testimonial</span>
       </button>
       <button className="slider__btn"
         onClick={next}
@@ -27,6 +28,7 @@ const SliderButton = ({prev, next}) => {
             d="M2 1l8 8-8 8" 
           />
         </svg>
+        <span className="sr-only">next testimonial</span>
       </button>
     </div>
   );
